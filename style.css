@@ -1,0 +1,119 @@
+body {
+        font-family: 'Josefin Sans', sans-serif;
+        background: -webkit-linear-gradient(to left, #3b3a3b , #313f5c);
+        background: linear-gradient(to left, #3b3a3b , #313f5c);
+        color: white;
+    }
+    
+.header {
+    height: 100vh;
+    display: block;
+    top: 0;
+    left: 0;
+    background: #111111;
+    min-height: 100%;
+    z-index: 99999;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Didact Gothic', sans-serif;
+    color: white;
+}
+
+.nav {
+    border-bottom: 1px solid #242424;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.social-icons {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    color: white;
+}
+
+.social-icons li {
+    justify-content: space-between;
+    color: white;
+    display: flex;
+    flex-direction: row;
+
+    padding-left: 10px;
+    
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    color: white;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+.education,
+.experience,
+.skills,
+footer {
+    height: 100vh;
+    color: white;
+}
+
+
+.nav-link, 
+.facebook, 
+.twitter, 
+.rss, 
+.google, 
+.linkedin, 
+.pinterest, 
+p, 
+span, 
+label, 
+h4 {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.text {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+@include media-breakpoint-up(sm) {
+    .address {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+  }
+
